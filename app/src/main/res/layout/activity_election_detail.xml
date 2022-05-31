@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ElectionDetail">
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="405dp"
+        android:layout_height="302dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:weightSum="7">
+
+            <TextView
+                android:id="@+id/electcode"
+                android:layout_width="380dp"
+                android:layout_height="41dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Code:"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/school"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="School:"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Date:"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/startTime"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="start time"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/stopTime"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Stop time"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Duration"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="status"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/regvoter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register as voter" />
+
+            <Button
+                android:id="@+id/regcandidate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="register as candidate" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/availableElection2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_marginBottom="12dp"
+        android:padding="2dp"
+        android:text="Election Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/electName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_marginBottom="36dp"
+        android:padding="2dp"
+        android:text="Election Name: Test"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/availableElection2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
+
+    <Button
+        android:id="@+id/vote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardMenu"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="@string/dashboard" />
+    <item
+        android:id="@+id/viewElectionMenu"
+        android:icon="@drawable/ic_baseline_ballot_24"
+        android:title="@string/view_election" />
+    <item
+        android:id="@+id/addElectionMenu"
+        android:icon="@drawable/ic_baseline_add_box_24"
+        android:title="@string/add_election" />
+
+</menu>

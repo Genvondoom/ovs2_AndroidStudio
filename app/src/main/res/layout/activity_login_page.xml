@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    tools:context=".SignupPage">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="366dp"
+        android:layout_height="264dp"
+        android:background="@drawable/frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="153dp"
+                android:layout_height="60dp"
+                android:background="@drawable/frame3"
+                android:text="Login"
+                android:textSize="16sp"
+                app:backgroundTint="#30344E"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                app:layout_constraintVertical_bias="0.285" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="346dp"
+                android:layout_height="156dp"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"
+                android:weightSum="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clipToPadding="true"
+                    android:padding="5dp"
+                    app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/loginMatricNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/frame4"
+                        android:drawablePadding="5dp"
+                        android:drawingCacheQuality="high"
+                        android:hint="Matric Number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clipToPadding="true"
+                    android:padding="5dp"
+                    app:passwordToggleEnabled="false"
+                    app:startIconDrawable="@drawable/ic_baseline_lock_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/loginPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/frame4"
+                        android:drawablePadding="5dp"
+                        android:hint="Password"
+                        android:password="false" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/frame2"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="192dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/frame3"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#F3F3F3"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/frame4"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

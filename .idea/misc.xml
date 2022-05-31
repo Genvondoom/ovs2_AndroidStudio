@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_add_position_page.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_candidate_reg.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/activity_election_detail.xml" value="0.26145833333333335" />
+        <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_signup_page.xml" value="0.18070652173913043" />
+        <entry key="app/src/main/res/layout/activity_vote.xml" value="0.2734375" />
+        <entry key="app/src/main/res/layout/activity_vote2.xml" value="0.1490036231884058" />
+        <entry key="app/src/main/res/layout/activity_welcome_page.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/election_template.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/fragment_create_election.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/fragment_dash_board.xml" value="0.1234375" />
+        <entry key="app/src/main/res/layout/fragment_v_iew_election_fragments.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/positions.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/test.xml" value="0.125" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
